@@ -47,16 +47,15 @@ sqli_lab/
 └── cryptobank_sqli_lab.py
 🚀 Step 3: Run the Lab in VSCode Terminal
 
-
-Open the integrated terminal in VSCode
-
-Run the Flask app by typing:
-
-
 python cryptobank_sqli_lab.py
+
+
+
 This will run the server on http://127.0.0.1:5000/.
 
 You should see output like this in the terminal:
+
+
 
 
 * Running on http://127.0.0.1:5000
@@ -64,12 +63,17 @@ You should see output like this in the terminal:
 
 Open your web browser.
 
-Go to:
 
+Go to:
 
 http://127.0.0.1:5000/
 
+
+
+
 You should see the CryptoBank Data Lookup page with a black background.
+
+
 
 
 🧑‍💻 Step 5: Testing for SQL Injection
@@ -77,11 +81,17 @@ On the CryptoBank page, you’ll see a search bar labeled "Client name".
 
 Enter an SQL Injection payload into the search bar (like ' UNION SELECT 1, name, balance, wallet FROM clients--).
 
+
 The output should display the data from the clients table:
 
+
 ID: 1, Name: Alice, Balance: 3.2 BTC, Wallet: 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+
 ID: 2, Name: Bob, Balance: 5.5 BTC, Wallet: 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy
+
 ID: 3, Name: Eve, Balance: 0.01 BTC, Wallet: bc1qw508d6qejxtdg4y5r3zarvary0c5xw7k6j28z
+
+
 
 
 
