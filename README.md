@@ -24,9 +24,11 @@ Open VSCode or your terminal.
 
 Install Flask and SQLite3 dependencies using pip:
 
-
+command for terminal:
 
 pip install flask sqlite3
+
+
 
 🧑‍💻 Step 2: Set Up the Project
 
@@ -45,24 +47,21 @@ Your directory should look like this:
 sqli_lab/
 │
 └── cryptobank_sqli_lab.py
-🚀 Step 3: Run the Lab in VSCode Terminal
+🚀 Step 3: Run the Lab in VSCode Terminal:
 
 python cryptobank_sqli_lab.py
 
 
 
-This will run the server on http://127.0.0.1:5000/.
-
 You should see output like this in the terminal:
-
-
-
 
 * Running on http://127.0.0.1:5000
 🌐 Step 4: Open the Lab in Your Browser
 
-Open your web browser.
 
+
+
+Open your web browser.
 
 Go to:
 
