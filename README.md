@@ -16,6 +16,8 @@ SQLite (for the database)
 🏗️ Step 1: Install Python & Required Modules
 If you don't have Python installed yet, download Python here and make sure to add Python to your PATH during installation.
 
+Install Python
+
 Install Flask:
 
 Open VSCode or your terminal.
